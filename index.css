@@ -393,6 +393,9 @@ background-color: white;
 #projects{
   padding-bottom: 50px;
  }
+ .kclogo{
+  display: none;
+ }
  
 }
 
@@ -457,6 +460,9 @@ background-color: white;
   margin-top: 25%;
   margin-bottom: 40%;
 }
+.kclogo{
+  display: none;
+ }
 
 }
 
@@ -469,5 +475,8 @@ background-color: white;
   #width{
     margin: 5%;
   }
+  .kclogo{
+    display: none;
+   }
   
 }
