@@ -10,6 +10,15 @@ body{
   margin: 7%;
 }
 
+.back-video{
+  position: fixed;
+  z-index: -1;
+  margin: auto;
+  width: fit-content;
+}
+
+
+
 #nav-menu{
   display: flex;
   justify-content: space-between;
