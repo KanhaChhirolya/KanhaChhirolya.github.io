@@ -41,17 +41,17 @@ GitHubCalendar(".calendar", "KanhaChhirolya", {
   tooltips: true,
 });
 
-function viewable() {
+document.getElementById("resume-button-1").onclick = () => {
   window.open(
     "https://drive.google.com/file/d/19ECok2Y0TiAyqxwSn0lYLa1a3mBSejhe/view?usp=sharing"
   );
 };
 
-document.getElementById("resume-button-1").onclick = viewable
-
-
-
-document.getElementById("resume-button-2").onclick = viewable
+document.getElementById("resume-button-2").onclick = () => {
+  window.open(
+    "https://drive.google.com/file/d/19ECok2Y0TiAyqxwSn0lYLa1a3mBSejhe/view?usp=sharing"
+  );
+};
 
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";

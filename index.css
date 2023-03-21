@@ -23,7 +23,8 @@ body{
   display: flex;
   justify-content: space-between;
   position: sticky;
-  top: 0px;
+  top: 0;
+  left: 0;
   transition: all 0.5s ease-out;
   padding: 3px;
   max-width: 100%;
@@ -480,3 +481,26 @@ background-color: white;
    }
   
 }
+
+#resume-button-1,#resume-button-2{
+  background: none;
+  border: none;
+
+}
+#resume-button-1 a,#resume-button-2 a{
+  padding: 8px 14px;
+  font-size: 21px;
+  margin: 4px 10px;
+  color: white;
+  text-decoration: none;
+
+}
+#nav-menu > div > button:hover{
+  background: none;
+  border: none;
+} 
+#resume-button-2:hover{
+  background: none;
+  border: none;
+  background-color: rgb(86, 157, 157);
+} 
